@@ -67,7 +67,9 @@ function winGame(game){
 }
     else if(game == false)
     {
-        backgloundColor.style.backgroundColor = "red"}
+        backgloundColor.style.backgroundColor = "red"
+        document.querySelector('#hint').innerHTML = 'Game Over'
+    }
 
 }
 
