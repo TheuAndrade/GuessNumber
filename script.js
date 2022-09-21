@@ -93,6 +93,7 @@ function playAgain(){
     document.querySelector(".message").innerText = "Start guessing ..."
     document.querySelector('#hint').innerHTML = "Guess My Number!"
     document.querySelector('.number').innerHTML = '?'
+    document.querySelector('.message').style.color = "white"
     n = randomNumber()
     
 }
@@ -117,6 +118,10 @@ function validNumber(){
    }
     else{
     document.querySelector('.message').innerText = "Invalido"
+    document.querySelector('.message').style.color = "red"
+    
+        
+
     }
    }
 
