@@ -69,6 +69,7 @@ function winGame(game){
     {
         backgloundColor.style.backgroundColor = "red"
         document.querySelector('#hint').innerHTML = 'Game Over'
+        console.log('entrou')
     }
 
 }
